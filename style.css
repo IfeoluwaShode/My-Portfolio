@@ -27,13 +27,22 @@ span{
     position: absolute;
     bottom: 800px;
     left: 800px;
+    font-weight: 800;
 }
 .contact{
     position: absolute;
     bottom: 800px;
     left: 990px;
 }
-@media (max-height: 3000px) {
+.work{
+    position: absolute;
+    bottom: 780px;
+    left: 800px;   
+}
+.work, .resume, .contact{
+    font-weight: 800;
+}
+@media (max-height: 2150px) {
     .resume{
         position: absolute;
         top: 50px;
@@ -43,6 +52,11 @@ span{
         position: absolute;
         top: 50px;
         left: 650px;
+    }
+    .work{
+        position: absolute;
+        top: 50px;
+        left: 800px;       
     }
 }
 
